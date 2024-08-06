@@ -4,20 +4,33 @@ This project was created using a GitHub repository setup script.
 
 ## Description
 
-Add a brief description of your project here.
+This script does the following:
+
+- Prompts the user for a project name.
+- Creates a new public repository on GitHub using the gh CLI.
+- Clones the repository to the local machine.
+- Changes directory into the new repository.
+- Creates a .gitignore file with some common ignore patterns.
+- Creates a basic README.md file.
+- Commits these new files and pushes them to the remote repository.
+
 
 ## Installation
 
-Provide installation instructions here.
+Make sure you have the GitHub CLI (gh) installed and authenticated.
+
+Save the script to a file, for example, setup_github_repo.sh.
+
+Make the script executable: chmod +x setup_github_repo.sh
+
+Run the script: ./setup_github_repo.sh
+
 
 ## Usage
 
-Explain how to use your project here.
+Run the script: 
 
-## Contributing
+```
+./setup_github_repo.sh
+```
 
-If you want to contribute to this project, please follow these steps...
-
-## License
-
-Specify your project's license here.
